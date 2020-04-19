@@ -124,7 +124,7 @@ export default function Cadastro() {
           </button>
         </form>
       </section>
-      <ParticlesBg type="cobweb" bg={true} />
+      <ParticlesBg color="#ffffff" type="cobweb" bg={true} num={100} />
     </div>
   );
 }

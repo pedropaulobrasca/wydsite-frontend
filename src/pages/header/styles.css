@@ -1,0 +1,46 @@
+.header-container {
+  width: 1366px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.header-container header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.header-container header ul {
+  list-style: none;
+  display: flex;
+}
+
+.header-container header ul li + li {
+  padding-left: 15px;
+}
+
+.header-container header div.logo {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  color: aliceblue;
+}
+
+.header-container header ul.menu {
+  display: flex;
+  justify-content: center;
+  flex: 4;
+  color: aqua;
+}
+
+.header-container header ul.social {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+a {
+  color: aliceblue;
+}

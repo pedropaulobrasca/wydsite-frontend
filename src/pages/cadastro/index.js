@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
-import ParticlesBg from "particles-bg";
-
 import api from "../../services/api";
 
 import "./styles.css";
@@ -124,7 +122,6 @@ export default function Cadastro() {
           </button>
         </form>
       </section>
-      <ParticlesBg color="#ffffff" type="cobweb" bg={true} num={100} />
     </div>
   );
 }

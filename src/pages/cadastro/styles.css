@@ -1,6 +1,5 @@
 .logon-container {
     width: 100%;
-    max-width: 1120px;
     height: 100vh;
     margin: 0 auto;
 
@@ -17,4 +16,18 @@
 .logon-container section.form form h1 {
     font-size: 32px;
     text-align: left;
+    color: aliceblue;
+}
+
+.logon-container section.form form small {
+    color: aliceblue;
+}
+
+.button {
+    background: rgb(255, 255, 255);
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    height: 30px;
+    margin: 15px auto;
 }
